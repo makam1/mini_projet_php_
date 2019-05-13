@@ -1,0 +1,12 @@
+Sel,100,5
+poivre,200,10
+piment,75,5
+ail,300,15
+oignon,350,25
+poivron,100,20
+carotte,150,30
+navet,250,7
+haricot,400,40
+aubergine,700,9
+Tomates,200,50
+Pomme de terre,500,50

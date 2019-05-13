@@ -1,0 +1,6 @@
+yacine,MmeSow,iamadmin,771258974,yacine@localhost.com,SAHM,admin,actif
+Mairame,Ayssat,MAK123,784523698,mak@localhost.com,rufisque,user,actif
+Mr_Niasse,Niasse,passer123,775214565,niasse@localhost.com,dakar,user,actif
+Mairame,makam,passer,789654123,mairamaissata@gmail.com,rufisque,user,actif
+El Hadji Ibrahima,khalilou,passer,778083808,ibou@ibou.com,sonatel,user,actif
+Aissata,Mak,kane123,775216987,mak@gmail.com,dakar,admin,actif

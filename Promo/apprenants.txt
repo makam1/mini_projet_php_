@@ -1,5 +1,5 @@
-1,KANE,Maîrame Aîssatou,1996-10-11,774521232,mairamaissata@gmail.com,Alioune Ndiaye,actif,
-2,SALL,Awa,1996-02-12,778569874,sallawa@gmail.com,Alioune Ndiaye,actif,
+1,KANE,Maïrame Aïssatou,1996-10-11,774521232,mairamaissata@gmail.com,Alioune Ndiaye,actif,
+2,SALL,Awa,1996-02-12,778569874,sallawa@gmail.com,Babacar,actif,
 3,Ndao,Ibrahima,1996-03-25,774523691,ibou@gmail.com,Babacar,actif,
 4,Gueye,Mame Amy,1996-04-26,785236941,amyg@gmail.com,Alioune Ndiaye,actif,
 5,Ndoye,Abdoulaye,1996-11-15,774523698,ndoye@gmail.com,Babacar,actif,

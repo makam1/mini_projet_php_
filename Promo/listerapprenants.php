@@ -94,7 +94,7 @@
                             $tab=explode(",",$ligne);
                             echo "<tr>";
                             for($i=0;$i<count($tab);$i++){
-                                if($promo==$tab[6]){
+                                if($promo==$tab[6] && $tab[7]!="exclu"){
                               echo "<td>".$tab[$i]."</td>";
                             }
                             } 
@@ -107,7 +107,9 @@
                           $tab=explode(",",$ligne);
                           echo "<tr>";
                             for($i=0;$i<count($tab);$i++){
+                                if( $tab[7]!="exclu"){
                               echo "<td>".$tab[$i]."</td>";
+                            }
                             } 
                         echo "</tr>";   
                         }  

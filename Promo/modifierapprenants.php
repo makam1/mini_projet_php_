@@ -92,7 +92,7 @@ session_start();
                     while(!feof($promos)){
                         $ligne =fgets($promos);
                         $tab=explode(",",$ligne);
-                        if(!strcasecmp($_POST['name'],$tab[2])){
+                        if(!strcasecmp($_POST['name'],$tab[2])&& $tab[7]!="exclu"){
                             $exist=true;
                         }
                     }
@@ -104,7 +104,7 @@ session_start();
                             $tab=explode(",",$ligne);
                             echo "<tr>";
                             for($i=0;$i<count($tab);$i++){
-                                if(!strcasecmp($_POST['name'],$tab[2])){
+                                if(!strcasecmp($_POST['name'],$tab[2]) && $tab[7]!="exclu"){
                             echo "<td>".$tab[$i]."</td>";
                             }
                         } 
@@ -112,6 +112,9 @@ session_start();
                     } 
                      fclose($promos);
 
+                }
+                else{
+                    echo "<h4 style='color:red;text-align:center'>L'apprenant n'existe pas dans nos fichiers <h4>" ;
                 }
                 echo "</table>
                 <div class='container'>
@@ -212,8 +215,10 @@ session_start();
                     $ligne =fgets($promos);
                     $tab=explode(",",$ligne);
                     echo "<tr>";
+                    if($tab[7]!="exclu"){
                       for($i=0;$i<count($tab);$i++){
                         echo "<td>".$tab[$i]."</td>";
+                    }
                       } 
                   echo "</tr>";   
                   }  
@@ -251,9 +256,11 @@ session_start();
                           $ligne =fgets($promos);
                           $tab=explode(",",$ligne);
                           echo "<tr>";
+                          if($tab[7]!="exclu"){
                             for($i=0;$i<count($tab);$i++){
                               echo "<td>".$tab[$i]."</td>";
                             } 
+                        }
                         echo "</tr>";   
                         }  
                         fclose($promos);
